@@ -1,0 +1,842 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1380px) {
+
+
+header {
+	height: 450px;
+	margin-bottom: -4%;
+}
+
+
+header nav a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 0;
+
+}
+
+nav ul li{
+	margin-right: .5em;
+}
+
+
+.header__logo_contact {
+	padding: 10% 8% 0 30%;
+}
+
+
+.section__services {
+	height: 2800px;
+	margin-bottom: -5%;
+}
+
+.section__services p {
+	font-size: 1.6em; 
+}
+
+.section__services__container {
+	flex-direction: column;
+}
+
+.section__services__branding img {
+	width: 25%;
+}
+
+.section__services__design img {
+	width: 22%;
+}
+
+.section__services__development img {
+	width: 25%;
+}
+
+.section__services__rocketScience img {
+	width: 25%;
+}
+
+
+.section__services__branding h3,
+.section__services__design h3,
+.section__services__development h3,
+.section__services__rocketScience h3 {
+	font-size: 34px;
+}
+
+.section__services__branding p,
+.section__services__design p,
+.section__services__development p,
+.section__services__rocketScience p {
+	font-size: 30px;
+
+}
+
+
+
+
+.section__team {
+	height: 800px;
+}
+
+
+.section__team__member p{
+	margin-bottom: -50px;
+}
+
+
+
+.section__skills {
+	height: 500px;
+}
+
+
+.percent {
+	color: #000;
+	font-size: 66px;
+	position: relative;
+	top: 30px;
+	left: 25%;
+	visibility: visible;
+}
+
+.percent span {
+	display: inline-block;
+	font-size: 36px;
+
+}
+
+
+.progress_skills,
+.center_skills {
+	background: #fff;
+}
+
+
+.progress_skills::after {
+	background: #fff;
+}
+
+.progress_skills::before {
+	background: #fff;
+}
+
+
+.progress_htmlCss,
+.center_htmlCss {
+	background: #fff;
+}
+
+
+.progress_htmlCss::after {
+	background: #fff;
+}
+
+.progress_htmlCss::before {
+	background: #fff;
+}
+
+
+.progress_graphicDesign,
+.center_graphicDesign {
+	background: #fff;
+}
+
+
+.progress_graphicDesign::after {
+	background: #fff;
+}
+
+.progress_graphicDesign::before {
+	background: #fff;
+}
+
+
+.progress_UIUX,
+.center_UIUX {
+	background: #fff;
+}
+
+
+.progress_UIUX::after {
+	background: #fff;
+}
+
+.progress_UIUX::before {
+	background: #fff;
+}
+
+
+.section__skills__webDesign__title,
+.section__skills__htmlCss__title,
+.section__skills__graphicDesign__title,
+.section__skills__UIUX__title
+ {
+	margin-top: -70px;
+	z-index: 10;
+}
+
+
+.section__skills__container {
+	top: -15%;
+	left: 15%;
+}
+
+
+.section__portfolio {
+	height: 1400px;
+}
+
+
+.section__portfolio__menu {
+	left: 37%;
+	right: 40%;
+	
+}
+
+.PortfolioButton {
+	width: 30%;
+	height: 5%;
+	margin-left: 35%;
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	border-radius: 3%;
+	background: #17C2A4;
+	-webkit-box-shadow: 0px 9px 0px 0px rgba(20,165,140,1);
+	-moz-box-shadow: 0px 9px 0px 0px rgba(20,165,140,1);
+	box-shadow: 0px 5px 0px 0px rgba(20,165,140,1);
+}
+
+
+.section__aboutUs {
+	height: 1300px;
+}
+
+.section__aboutUs__Pinterest {
+	margin-bottom: 0;
+}
+
+
+footer {
+	height: 980px;
+	margin-top: -5%;
+}
+
+
+.underline__footer {
+	position: relative;
+	left: 2%;
+}
+
+
+
+.footer__lower a {
+	font-size: 18px;
+	padding-right: 20px;
+
+}
+
+.footer__lower__container {
+	left: 30%;
+}
+
+
+figure img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+
+
+body {
+	word-wrap: normal;
+    hyphens: none;
+}
+
+header {
+	height: 380px;
+	margin-bottom: -5%;
+}
+
+.header__logo {
+	left: 5%;
+	top: 1em;
+}
+
+
+
+.header__logo_home,
+.header__logo_about,
+.header__logo_work
+ {
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	padding: 6px 0 0 10px;
+	
+}
+
+.header__logo_home a,
+.header__logo_about a, 
+.header__logo_work a,
+.header__logo_blog a,
+.header__logo_contact a  {
+	padding-left: 12px;
+}
+
+
+h1 {
+	text-align: center;
+	margin: 7.8125% 0 0 0;
+	font-size: 30px;
+}
+
+header button {
+	width: 25.625%;
+	height: 75px;
+	font-size: 16px;
+	margin: 3.125% 10.4166666666667% 5.208333333333% 36.666666666667%;
+	
+}
+
+.header__logo_blog {
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	padding: 6px 0 0 10px;
+	
+}
+
+.header__logo_contact {
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	padding: 6px 15px 0 5px;
+}
+
+
+
+
+
+
+.section__portfolio {
+	height: 2200px;
+}
+
+
+.section__services {
+	height: 2800px;
+}
+
+.section__services p {
+	font-size: 24px;
+}
+
+
+
+.section__services__branding h3,
+.section__services__design h3,
+.section__services__development h3,
+.section__services__rocketScience h3 {
+	font-size: 40px;
+}
+
+.section__services__branding p,
+.section__services__design p,
+.section__services__development p,
+.section__services__rocketScience p {
+	font-size: 36px;
+
+}
+
+
+
+.section__services__branding img {
+	width: 38%;
+}
+
+.section__services__design img {
+	width: 32%;
+}
+
+.section__services__development img {
+	width: 40%;
+}
+
+.section__services__rocketScience img {
+	width: 35%;
+}
+
+
+.section__team {
+	height: 2000px;
+}
+
+
+
+
+.section__team__container {
+	flex-direction: column;
+}
+
+
+.section__team__member__foto {
+	width: 200px;
+	height: 200px;
+	background: url(../img/faces.png) -195px -10px no-repeat;
+	position: relative;
+	left: 34%;
+
+}
+
+
+.section__team__member__socialsContainer,
+.section__team__member__socialsContainer1 {
+	justify-content: center;
+}
+
+ 
+.section__team__member__foto__twitter,
+.section__team__member__foto__linkedin,
+.section__team__member__foto__email,
+.section__team__member__foto__facebook
+ {
+	width: 30px;
+	height: 30px;
+	background: #BDD1DF;
+	border-radius: 100%;
+	display: inline-block;
+	margin: 1%;
+}
+
+
+
+.section__team__member h3 {
+	font-size: 1.3em;
+	margin-bottom: -1%;
+	
+}
+
+.section__team__member h2 {
+	font-size: 2em;
+	margin: 1% 0 -8% 0;
+}
+
+.section__team__member p{
+	font-size: 1.2em;
+	margin-bottom: -8%;
+}
+
+
+.section__skills {
+	height: 500px;
+}
+
+
+.section__skills__container {
+	top: -15%;
+	left: 15%;
+}
+
+
+
+
+.section__portfolio__menu {
+	left: 32%;
+	right: 50%;
+	
+}
+
+
+.section__aboutUs {
+	height: 1200px;
+}
+
+
+footer {
+	height: 980px;
+}
+
+
+.footer__lower__container {
+	left: 20%;
+}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+
+header {
+	height: 370px;
+	margin-bottom: -5%;
+}
+
+.header__logo {
+	left: 7%;
+	top: 1em;
+}
+
+
+header button {
+	margin: 6.125% 10.4166666666667% 5.208333333333% 36.666666666667%;
+	
+}
+
+
+.section__services {
+	height: 2550px;
+}
+
+.section__services p {
+	font-size: 2em;
+}
+
+
+.section__services__branding img {
+	width: 38%;
+}
+
+.section__services__design img {
+	width: 32%;
+}
+
+.section__services__development img {
+	width: 40%;
+}
+
+.section__services__rocketScience img {
+	width: 35%;
+}
+
+
+
+.section__team {
+	height: 2400px;
+}
+
+
+
+
+.section__team__member__foto {
+	left: 30%;
+}
+
+
+.section__team__member h3 {
+	font-size: 2em;
+	margin-bottom: -1%;
+	
+}
+
+.section__team__member h2 {
+	font-size: 2.5em;
+	margin: 1% 0 -8% 0;
+}
+
+.section__team__member p{
+	font-size: 1.8em;
+	margin-bottom: -10%;
+}
+ 
+
+
+
+.section__portfolio {
+	height: 2200px;
+}
+
+
+.section__portfolio__menu {
+	left: 28%;
+}
+
+
+.section__aboutUs {
+	height: 1500px;
+}
+
+
+
+.footer__lower__container {
+	width: 100%;
+	position: relative;
+	left: 10%;
+}
+
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+
+header {
+	height: 100%;
+	margin-bottom: -8%;
+}
+
+.header__container {
+	width: 100%;
+}
+
+.header__logo {
+	left: 35%;
+	top: 1em;
+	margin-bottom: 2%;
+}
+
+
+nav {
+	position: relative;
+	left: -20%;
+	margin-top: 10%;
+}
+
+header nav a {
+	margin-left: -20%;
+
+}
+
+.header__logo_home,
+.header__logo_work,
+.header__logo_blog
+
+ {
+	width: 50px;
+	padding: 6px 0 0 5px;
+	margin-right: -15px;
+}
+
+.header__logo_about {
+	width: 50px;
+	padding: 10% 8% 0 5%;
+	margin-right: -15px;
+}
+
+
+.header__logo_contact {
+	width: 55px;
+	margin-left: -5px;
+	padding: 6px 15px 0 3px;
+}
+
+
+
+
+h1 {
+	margin: 15%;
+	font-size: 1.4em;
+	
+}
+
+header button {
+	width: 45%;
+	height: 75px;
+	font-size: 1.3em;
+	margin: -5% 10.4166666666667% 5.208333333333% 28%;
+	
+}
+
+
+
+.section__services {
+	height: 2100px;
+	margin-bottom: -10%;
+}
+
+.section__services p {
+	font-size: 24px;
+}
+
+
+
+.section__services__branding p,
+.section__services__design p,
+.section__services__development p,
+.section__services__rocketScience p {
+	font-size: 1.5em;
+
+}
+
+
+
+.section__services__branding img {
+	width: 38%;
+}
+
+.section__services__design img {
+	width: 32%;
+}
+
+.section__services__development img {
+	width: 40%;
+}
+
+.section__services__rocketScience img {
+	width: 35%;
+}
+
+
+.section__team {
+	height: 2200px;
+}
+
+
+
+
+.section__team__member__foto {
+	left: 18%;
+
+}
+
+
+
+
+.section__team__member h3 {
+	font-size: 1.3em;
+	margin-bottom: -1%;
+	
+}
+
+.section__team__member h2 {
+	font-size: 2em;
+	margin: 1% 0 -8% 0;
+}
+
+.section__team__member p{
+	font-size: 1.2em;
+	margin-bottom: -8%;
+}
+
+
+.section__skills {
+	height: 1200px;
+}
+
+
+.section__skills__container {
+	top: -0.5%;
+	left: 28%;
+	flex-flow: column;
+}
+
+
+.section__skills__webDesign__title,
+.section__skills__htmlCss__title
+
+ {
+	left: 10%;
+}
+
+.section__skills__graphicDesign__title {
+	left: 4%;
+}
+
+
+.section__skills__UIUX__title {
+	left: 18%;
+}
+
+
+.section__portfolio {
+	height: 1700px;
+}
+
+
+.section__portfolio__menu {
+	left: 13%;
+	
+	
+}
+
+
+.section__aboutUs {
+	height: 1900px;
+	margin-top: -10%;
+}
+
+
+footer {
+	height: 980px;
+	margin-top: -7%;
+}
+
+
+.form-style ul li input[type="button"], 
+.form-style ul li input[type="submit"] {
+    -moz-box-shadow: 0px 5px 0px 0px #299EC5;
+    -webkit-box-shadow: 0px 5px 0px 0px #299EC5;
+    box-shadow: 0px 5px 0px 0px #299EC5;
+    background-color: #30BAE7;
+    border: none;
+    border-radius: 3%;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 20px 75px 20px 75px;
+    text-decoration: none;
+    font: 24px Titillium Web, Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 60px;
+    top: 30px;
+
+}
+
+
+.footer__lower {
+	height: 200px;
+	
+
+}
+
+.footer__lower__container {
+	width: 60%;
+	position: relative;
+	left: 28%;
+}
+
+.footer__lower__container a:nth-child(7) {
+	position: relative;
+	left: 30%;
+}
+
+
+}
+
+
+
