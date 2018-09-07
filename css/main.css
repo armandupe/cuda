@@ -1,39 +1,31 @@
 
 body {
-	position: relative;
-	font-family: "Titillium Web", sans-serif;
-	max-width: 100%;
-	overflow-x: hidden;
-	
+	font-family: "Titillium Web", Arial, Helvetica, sans-serif;
 }
 
-header,main,footer {
-	max-width: 100%;
-}
 
 header {
 	height: auto;
+	margin-bottom: -2.2rem;
 	background: #87509C;
 	color: #fff;
-	margin-top: -7%;
+	margin-top: -2.1%;
 
 }
 
-.header__container {
+.header__nav {
 	width: 100%;
 	height: auto;
 	position: fixed;
 	z-index: 54;
 	background: #87509C;
-	margin-top: 4.9%;
-
+	box-shadow: 2px 2px 20px 2px #000;
 }
 
 .header__logo {
-	display: inline-block;
-	position: relative;
-	left: 20%;
-	top: 1em;
+	float: left;
+	margin-top: 1em;
+	margin-left: 2em;
 }
 
 .header__logo img {
@@ -43,44 +35,50 @@ header {
 
 nav {
 	float: right;
-	width: 40%;
+	min-width: 40%;
+	margin-right: 2%;
 }
 
 
 nav ul li {
 	display: inline-block;
-	width: 100px;
+	min-width: 100px;
 }
 
 nav a {
 	text-decoration: none;
 	color: #fff;
+	font-size: 1em;
 }
-
-
 
 .header__logo_home,
 .header__logo_work,
-.header__logo_blog,
+.header__logo_team,
 .header__logo_about,
 .header__logo_contact {
-	width: 50px;
-	height: 30px;
+	width: 90%;
+	height: auto;
 	border-radius: 5px;
-	padding: 10% 20% 0 37.5%;
-	
+	padding: 10% 10% 10% 0%;
 }
+
+.header__logo_contact {
+	width: 80%;
+	padding: 10% 20% 10% 0%;
+}
+
 
 .header__logo_home span,
 .header__logo_work span,
-.header__logo_about span {
+.header__logo_about span,
+.header__logo_team span {
 	position: relative;
-	left: -10%;
+	left: 30%;
 }
 
 .header__logo_contact span {
 	position: relative;
-	left: -30%;
+	left: 25%;
 }
 
 
@@ -95,14 +93,13 @@ h1 {
 }
 
 header button {
-	width: 15.625%;
-	height: 75px;
 	background: #EB7D4B;
-	font-size: 18px;
+	font-size: 2vw;
 	color: #fff;
 	border-radius: 3px;
 	border: none;
-	margin: 3.125% 10.4166666666667% 5.208333333333% 41.666666666667%;
+	padding: 1% 1.5%;
+	margin: 3% 10% 5% 40%;
 	-webkit-box-shadow: 0px 9px 0px 0px rgba(199,106,67,1);
 	-moz-box-shadow: 0px 9px 0px 0px rgba(199,106,67,1);
 	box-shadow: 0px 5px 0px 0px rgba(199,106,67,1);
@@ -114,26 +111,23 @@ header button:hover {
 }
 
 .main__services {
-	width: 100%;
 	height: auto;
 	background: #17C2A4;
 	color: #fff;
-	margin-top: -2%;
-	position: relative;
+	margin-bottom: -2.1rem;
 }
 
 
 .main__services h2 {
 	text-align: center;
-	font-size: 2vw;
+	font-size: 2.2vw;
 	letter-spacing: 5px;
 	padding: 5% 0 0 0;
 }
 
 .main__services p {
-	margin-bottom: 5%;
-	line-height: 1.2em;
-	font-size: 1.2vw;
+	padding-bottom: 5%;
+	font-size: 1.6vw;
 }
 
 .underline__services {
@@ -151,15 +145,23 @@ header button:hover {
 	justify-content: space-around;
 	position: relative;
 	left: 10%;
-
 }
 
+
+.main__services__branding,
+.main__services__design,
+.main__services__development,
+.main__services__rocketScience {
+	width: 25%;
+	margin-right: 1%;
+}
 
 .main__services__branding img,
 .main__services__design img,
 .main__services__development img,
 .main__services__rocketScience img  {
-	width: 50%;
+	max-width: 50%;
+	height: auto;
 }
 
 .main__services__container h3 {
@@ -175,27 +177,16 @@ header button:hover {
 }
 
 .main__team {
-	width: 100%;
 	height: auto;
 	background: #E7F1F8;
-	margin-top: -2%;
-
 }
 
 .main__team h2 {
 	text-align: center;
-	font-size: 2vw;
+	font-size: 2.2vw;
 	letter-spacing: 5px;
 	padding: 5% 0 0 0;
 	color: #000;
-}
-
-.main__team p {
-	text-align: center;
-	font-size: 1.2vw;
-	color: #000;
-	padding: 0 0 70px 0;
-	line-height: 1.2em;
 }
 
 .underline__team {
@@ -206,63 +197,74 @@ header button:hover {
 	margin: 0 auto;
 }
 
+.main__team p {
+	text-align: center;
+	font-size: 1.6vw;
+	color: #000;
+	padding-bottom: 5%;
+}
+
 .main__team__container {
-	width: 70%;
-	left: 15%;
-	position: relative;
+	box-sizing: border-box;
+	width: 90%;
+	justify-content: space-between;
 	display: flex;
-	justify-content: space-around;
+	margin-left: 5%;
 }
 
 .main__team__member {
 	width: 25%;
+	margin-right: 1%;
 }
 
 .main__team__member img {
-	max-width: 50%;
+	width: 40%;
 	height: auto;
-	margin-left: 25%;
+	margin-left: 30%;
 }
 
 .main__team__member h2 {
 	color: #000;
 	font-size: 1.8vw;
 	text-align: center;
-	margin: 10% 0 -10% 0;
+	margin: 5% 0 -10% 0;
 }
 
 .main__team__member h3 {
 	color: #3CBEE8;
-	font-size: 1.2vw;
+	font-size: 1.5vw;
 	text-align: center;
 	margin-top: 10%;
 }
 
-
-
-.main__team__member p{
+.main__team__member p {
 	color: #000;
+	font-size: 1.2vw;
 }
 
-.facebook,
-.twitter,
-.linkedin,
-.email {
-	width: 25px;
-	height: 25px;
-	background: url(../img/spritesheet.png) 7px -2px no-repeat;	
+.main__team__member__socialsContainer {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: -5%;
+	padding-bottom: 5%;
 }
 
-.twitter {
-	background: url(../img/spritesheet.png) -68px 1px no-repeat;
+.main__team__member__socialsContainer1 {
+	display: flex;
+	justify-content: center;
+	width: 77%;
+	margin-top: -5%;
+	margin-left: 12%;
 }
 
-.linkedin {
-	background: url(../img/spritesheet.png) -15px -2px no-repeat;
-}
-
-.email {
-	background: url(../img/spritesheet.png) -41px 2px no-repeat;
+.main__team__member__foto__twitter,
+.main__team__member__foto__linkedin,
+.main__team__member__foto__email,
+.main__team__member__foto__facebook {
+	width: 100%;
+	height: auto;
+	display: inline-block;
 }
 
 .main__team__member__foto__facebook:hover,
@@ -272,47 +274,16 @@ header button:hover {
 	opacity: .5;
 }
 
-.main__team__member__foto__twitter,
-.main__team__member__foto__linkedin,
-.main__team__member__foto__email,
-.main__team__member__foto__facebook {
-	width: 12%;
-	height: auto;
-	background: #BDD1DF;
-	border-radius: 100%;
-	display: inline-block;
-}
-
-.main__team__member__socialsContainer {
-	display: flex;
-	justify-content: space-around;
-	width: 80%;
-	position: relative;
-	left: 10%;
-	top: -15%;
-}
-
-.main__team__member__socialsContainer1 {
-	display: flex;
-	justify-content: space-around;
-	width: 80%;
-	position: relative;
-	left: 10%;
-	top: -15%;
-}
-
-
 .main__skills {
-	width: 100%;
 	height: auto;
 	background: #fff;
 	color: #000;
 }
 
 
-.main__skills   h2 {
+.main__skills h2 {
 	text-align: center;
-	font-size: 2vw;
+	font-size: 2.2vw;
 	letter-spacing: 5px;
 	padding: 2% 0 0 0;
 	
@@ -328,240 +299,49 @@ header button:hover {
 
 .main__skills p {
 	text-align: center;
-	font-size: 1.2vw;
+	font-size: 1.6vw;
 	padding: 0 0 70px 0;
 }
 
 
 .main__skills__container {
-	width: 70%;
-	left: 15%;
-	position: relative;
+	width: 90%;
+	margin-left: 5%;
 	display: flex;
 	justify-content: space-around;
 }
 
-.main__skills__webDesign__title {
-	position: relative;
-	left: 17%;
+
+.main__skills__webDesign,
+.main__skills__htmlCss,
+.main__skills__UIUX,
+.main__skills__graphicDesign {
+	width: 25%;
 }
 
-.progress_skills {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: #30BAE7;
+.main__skills__container img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: -10%;
+	margin-left: 25%;
+
 }
 
-.progress_skills::before {
-  position: absolute;
-  content: '';
-  background-color: #30BAE7;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  clip: rect(0, 170px, 200px, 0);
-  transform-origin: 50% 50%;
-  transform: rotate(270deg);
-  z-index: 1;
-}
-
-.progress_skills::after {
-  position: absolute;
-  content: '';
-  background-color: gray;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  clip: rect(0, 100px, 200px, 0);
-  transform-origin: 50% 50%;
-  transform: rotate(0deg);
-}
-
-.progress_skills .center_skills {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  width: 170px;
-  height: 170px;
-  background-color: white;
-  border-radius: 50%;
-  z-index: 2;
-}
-
-.percent {
-	color: #000;
-	font-size: 4em;
-	position: relative;
-	top: 27%;
-	left: 25%;
-}
-
-.percent span {
-	display: inline-block;
-	font-size: .7em;
-}
-
-.main__skills__htmlCss__title {
-	position: relative;
-	left: 20%;
-}
-
-.progress_htmlCss {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: #D74680;
-}
-
-.progress_htmlCss::before {
-  position: absolute;
-  content: '';
-  background-color: #D74680;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  clip: rect(0, 100px, 200px, 0);
-  transform-origin: 50% 50%;
-  transform: rotate(270deg);
-  z-index: 1;
-}
-
-.progress_htmlCss::after {
-  position: absolute;
-  content: '';
-  background-color: gray;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  clip: rect(0, 100px, 200px, 0);
-  transform-origin: 50% 50%;
-  transform: rotate(0deg);
-}
-
-.progress_htmlCss .center_htmlCss {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  width: 170px;
-  height: 170px;
-  background-color: white;
-  border-radius: 50%;
-  z-index: 2;
-}
- 
-.main__skills__graphicDesign__title {
-	position: relative;
-	left: 10%;
-}
-
-.progress_graphicDesign {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: #15C7A8;
-}
-
-.progress_graphicDesign::before {
-  position: absolute;
-  content: '';
-  background-color: #15C7A8;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  clip: rect(0, 90px, 200px, 0);
-  transform-origin: 50% 50%;
-  transform: rotate(270deg);
-  z-index: 1;
-}
-
-.progress_graphicDesign::after {
-  position: absolute;
-  content: '';
-  background-color: gray;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  clip: rect(0, 100px, 200px, 0);
-  transform-origin: 50% 50%;
-  transform: rotate(0deg);
-}
-
-.progress_graphicDesign .center_graphicDesign {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  width: 170px;
-  height: 170px;
-  background-color: white;
-  border-radius: 50%;
-  z-index: 2;
-}
-
-.main__skills__UIUX__title {
-	position: relative;
-	left: 35%;
-}
-
-
-.progress_UIUX {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: #EB7D4B;
-}
-
-.progress_UIUX::before {
-  position: absolute;
-  content: '';
-  background-color: #EB7D4B;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  clip: rect(0, 160px, 200px, 0);
-  transform-origin: 50% 50%;
-  transform: rotate(270deg);
-  z-index: 1;
-}
-
-.progress_UIUX::after {
-  position: absolute;
-  content: '';
-  background-color: gray;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  clip: rect(0, 100px, 200px, 0);
-  transform-origin: 50% 50%;
-  transform: rotate(0deg);
-}
-
-.progress_UIUX .center_UIUX {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  width: 170px;
-  height: 170px;
-  background-color: white;
-  border-radius: 50%;
-  z-index: 2;
+.main__skills__container figcaption {
+	font-size: 1.8vw;
+	text-align: center;
 }
 
 .main__portfolio {
 	background: #FFDD99;
-	position: relative;
-	width: 100%;
 	height: auto;
 	color: #000;
+	margin-bottom: -2.3rem;
 }
 
-.main__portfolio   h2 {
+.main__portfolio h2 {
 	text-align: center;
-	font-size: 2vw;
+	font-size: 2.2vw;
 	letter-spacing: 5px;
 	padding: 5% 0 0 0;
 	color: #000;
@@ -578,37 +358,35 @@ header button:hover {
 
 .main__portfolio p {
 	text-align: center;
-	font-size: 1.2vw;
+	font-size: 1.6vw;
 	color: #000;
 	padding: 0 0 70px 0;
 }
 
-
-
 .main__portfolio__menu {
-	position: absolute;
-	left: 40%;
-	top: 22%;
-	
+	margin-left: 37%;
+	margin-top: -3%;
+	width: 30%;
+	height: auto;
+	display: flex;
 }
 
 .main__portfolio__menu button {
-	width: 80px;
-	height: 40px;
+	width: 20%;
+	height: auto;
+	padding: 2%;
 	border-radius: 10%;
 	border: none;
 	background: #EBC985;
 	margin-left: 5px;
-	color: #000;
-	font-size: .8vw;
+	transition: .5s;
+	font-size: 1.2vw;
 }
 
 .main__portfolio__menu button:hover {
 	background: #fff;
 	cursor: pointer;
-	
 }
-
 
 .main__portfolio__container {
 	width: 90%;
@@ -617,8 +395,6 @@ header button:hover {
 	justify-content: center;
 	position: relative;
 	left: 5%;
-	margin-top: 2%;
-	margin-bottom: 2%;
 }
 
 .main__portfolio__container figcaption {
@@ -641,7 +417,8 @@ header button:hover {
 
 .portfolioButton {
 	min-width: 15%;
-	height: 50px;
+	height: auto;
+	padding: 1%;
 	margin-left: 41%;
 	margin-bottom: 5%;
 	color: #fff;
@@ -660,17 +437,18 @@ header button:hover {
 }
 
 .main__aboutUs {
-	width: 100%;
 	height: auto;
 	background: #D74680;
-	margin-top: -5%;
+	margin-bottom: -2.3rem;
 }
 
-.main__aboutUs   h2 {
+
+
+.main__aboutUs h2 {
 	text-align: center;
-	font-size: 2vw;
+	font-size: 2.2vw;
 	letter-spacing: 5px;
-	padding: 10% 0 0 0;
+	padding: 5% 0 0 0;
 	color: #fff;
 }
 
@@ -685,32 +463,34 @@ header button:hover {
 
 .main__aboutUs p {
 	text-align: center;
-	font-size: 1.2vw;
+	font-size: 1.6vw;
 	color: #fff;
-	padding: 0 0 70px 0;
-
 }
-
-
 
 .main__aboutUs__container {
 	width: 80%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-around;
 	position: relative;
 	left: 13%;
-	padding-bottom: 5%;
 }
 
 
 .main__aboutUs__avatar {
 	max-width: 30%;
 	height: 30%;
-	margin-left: -6%;
 	margin-top: 10%;
+	display: inline-block;
 }
 
+
+.main__aboutUs__Pinterest,
+.main__aboutUs__Behance,
+.main__aboutUs__Instagram,
+.main__aboutUs__Shazam {
+	min-width: 40%;
+}
 
 .main__aboutUs__Pinterest p,
 .main__aboutUs__Instagram p,
@@ -718,18 +498,16 @@ header button:hover {
 .main__aboutUs__Shazam p {
 	display: inline-block;
 	font-style: italic;
-	font-size: 1.3vw;
+	font-size: 1.5vw;
 	text-align: left;
-	margin-left: 1%;
-	margin-right: 3%;
 }
 
 .main__aboutUs__Pinterest h4,
 .main__aboutUs__Instagram h4,
 .main__aboutUs__Behance h4,
 .main__aboutUs__Shazam h4 {
-	font-size: 2vw;
-	margin: -12% 0 2% 19%;
+	font-size: 2.2vw;
+	margin: -2% 0 2% 17%;
 }
 
 
@@ -739,20 +517,19 @@ header button:hover {
 .main__aboutUs__Shazam h5 {
 	font-size: 1.5vw;
 	color: #FAC996;
-	margin: -1% 0 2% 19%;
+	margin: -1% 0 -22% 17%;
 }
 
 footer {
 	background: #3C5499;
-	width: 100%;
 	height: auto;
-	margin-top: -2%;
+	/*margin-top: -2%;*/
 }
 
 
-.footer__upper   h2 {
+.footer__upper h2 {
 	text-align: center;
-	font-size: 2vw;
+	font-size: 2.2vw;
 	letter-spacing: 5px;
 	padding: 5% 0 0 0;
 	color: #fff;
@@ -768,12 +545,10 @@ footer {
 
 .footer__upper p {
 	text-align: center;
-	font-size: 1.2vw;
+	font-size: 1.6vw;
 	color: #fff;
-	padding: 0 0 70px 0;
-
+	padding: 0 0 5% 0;
 }
-
 
 .form-style {
     max-width: 750px;
@@ -782,7 +557,7 @@ footer {
 }
 
 .form-style input,textarea {
-	font-size: 1.2vw;
+	font-size: 1.2em;
 }
 
 .form-style ul {
@@ -855,11 +630,11 @@ footer {
     display: inline-block;
     cursor: pointer;
     color: #FFFFFF;
-    padding: 20px 75px 20px 75px;
+    padding: 2% 7% 2% 7%;
     text-decoration: none;
     font: 24px Titillium Web, Arial, Helvetica, sans-serif;
     position: relative;
-    left: 200px;
+    left: 30%;
     top: 30px;
 }
 
@@ -908,19 +683,17 @@ textarea:-ms-input-placeholder {
 }
 
 .footer__lower {
-	width: 100%;
 	height: auto;
 	background: #344B8E;
-	position: relative;
 }
 
 .footer__lower a {
 	color: #fff;
 	text-decoration: none;
-	font-size: 24px;
-	margin-top: 30px;
+	font-size: 1.6vw;
+	padding-top: 1%;
 	padding-right: 3%;
-	padding-bottom: 3%;
+	padding-bottom: 1%;
 	display: inline-block;
 }
 
@@ -929,7 +702,8 @@ textarea:-ms-input-placeholder {
 }
 
 .footer__lower__container {
-	width: 60%;
-	position: relative;
-	left: 28%;
+	width: 70%;
+	height: auto;
+	margin-left: 25%;
 }
+
