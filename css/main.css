@@ -311,25 +311,33 @@ header button:hover {
 	justify-content: space-around;
 }
 
+* {
+	outline: 2px solid black;
+}
 
 .main__skills__webDesign,
 .main__skills__htmlCss,
 .main__skills__UIUX,
 .main__skills__graphicDesign {
-	width: 25%;
+	max-width: 25%;
+	flex-shrink: 0;
 }
 
 .main__skills__container img {
-	max-width: 100%;
+	min-width: 70%;
 	height: auto;
-	margin-bottom: -10%;
-	margin-left: 25%;
+	margin-left: 5%;
 
+}
+
+.main__skills__graphicDesign img {
+	margin-left: 15%;
 }
 
 .main__skills__container figcaption {
 	font-size: 1.8vw;
 	text-align: center;
+
 }
 
 .main__portfolio {
