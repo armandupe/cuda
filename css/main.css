@@ -476,12 +476,14 @@ header button:hover {
 }
 
 .main__aboutUs__container {
-	width: 80%;
+	width: 90%;
+	height: auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	position: relative;
-	left: 13%;
+	left: 5%;
+	padding-bottom: 5%;
 }
 
 
@@ -531,7 +533,7 @@ header button:hover {
 footer {
 	background: #3C5499;
 	height: auto;
-	/*margin-top: -2%;*/
+	
 }
 
 
@@ -710,7 +712,7 @@ textarea:-ms-input-placeholder {
 }
 
 .footer__lower__container {
-	width: 70%;
+	min-width: 70%;
 	height: auto;
 	margin-left: 25%;
 }
