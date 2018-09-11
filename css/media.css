@@ -121,4 +121,262 @@
 	margin-left: 10%;
 }
 
+.main__services__container {
+	max-width: 80%;
+	flex-wrap: wrap;
+}
+
+.main__services__branding,
+.main__services__design,
+.main__services__development,
+.main__services__rocketScience {
+	width: 48%;
+}
+
+.main__services__container h3 {
+	font-size: 2.8vw;
+}
+
+.main__services__container p,
+.main__services {
+	font-size: 2.2vw;
+}
+
+.form-style {
+    max-width: 750px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.form-style ul li input[type="button"], 
+.form-style ul li input[type="submit"] {
+   margin-bottom: 6%;
+}
+
+}
+
+@media only screen and (max-width : 730px) {
+
+	
+.main__skills__container {
+	flex-direction: column;
+	margin-left: 20%;
+}
+
+.main__skills__graphicDesign img {
+	margin-left: 23%;
+}
+
+.main__skills__UIUX img {
+	margin-left: 25%;
+}
+
+.main__skills__webDesign figcaption,
+.main__skills__htmlCss figcaption,
+.main__skills__UIUX figcaption {
+	margin-left: -12%;
+}
+
+.main__skills__graphicDesign figcaption {
+	margin-left: -13%;
+}
+
+}
+
+@media only screen and (max-width : 719px) {
+
+.header__logo {
+		margin-top: .6em;
+}
+
+nav a {
+	font-size: .7em;
+}
+
+nav ul li {
+	min-width: 70px;
+}
+
+.header__logo_home,
+.header__logo_work,
+.header__logo_team,
+.header__logo_about,
+.header__logo_contact {
+	width: 75%;
+}
+
+.main__portfolio p {
+	padding: 0 0 30px 0;
+}
+
+}
+
+@media only screen and (max-width : 650px) {
+
+header button {
+	margin: 3% 10% 8% 40%;
+}
+
+.portfolioButton {
+	margin-bottom: 10%;
+}
+
+}
+
+@media only screen and (max-width : 566px) {
+
+nav {
+	margin-right: 5%;
+}
+
+nav ul li {
+	min-width: 50px;
+}
+
+.header__logo_home,
+.header__logo_work,
+.header__logo_team,
+.header__logo_about,
+.header__logo_contact {
+	width: 100%;
+	padding: 10% 20% 10% 0%;
+}
+
+.header__logo_contact {
+	padding: 10% 25% 10% 0%;
+}
+
+}
+
+@media only screen and (max-width : 505px) {
+
+.header__nav {
+	display: flex;
+	flex-direction: column;
+}
+
+.header__logo {
+	margin-top: .4em;
+	margin-bottom: -3%;
+	margin-left: 45%;
+}
+
+.header__logo img {
+	max-width: 20%;
+	height: auto;
+}
+
+nav {
+	margin-bottom: -3%;
+	margin-left: 15%;
+	width: 100%;
+}
+
+h1 {
+	padding: 20% 0 0 0;
+}
+
+.form-style ul li input[type="button"], 
+.form-style ul li input[type="submit"] {
+    left: 25%;
+}
+
+.footer__lower__container {
+	margin-left: 20%;
+}
+
+}
+
+@media only screen and (max-width : 450px) {
+
+nav {
+	margin-left: 10%;
+}
+
+header button {
+	margin: 3% 10% 11% 40%;
+}
+
+.main__services__container {
+	padding-bottom: 5%;
+}
+
+.main__portfolio p {
+	padding: 0 0 20px 0;
+}
+
+.main__portfolio__menu {
+	margin-left: 35%;
+}
+
+.main__aboutUs__container {
+	padding-bottom: 8%;
+}
+
+.footer__lower__container {
+	margin-left: 23%;
+}
+
+}
+
+@media only screen and (max-width : 400px) {
+
+nav {
+	margin-left: 8%;
+}
+
+h1 {
+	padding: 23% 0 0 0;
+}
+
+.form-style ul li input[type="button"], 
+.form-style ul li input[type="submit"] {
+    left: 22%;
+}
+
+.footer__lower__container {
+	margin-left: 22%;
+}
+
+}
+
+@media only screen and (max-width : 360px) {
+
+nav {
+	margin-left: 2%;
+}
+
+header button {
+	margin: 3% 10% 13% 40%;
+}
+
+.portfolioButton {
+	margin-bottom: 13%;
+}
+
+.footer__lower__container {
+	margin-left: 23%;
+}
+
+}
+
+@media only screen and (max-width : 320px) {
+
+nav {
+	margin-left: -6%;
+}
+
+h1 {
+	padding: 28% 0 0 0;
+}
+
+.form-style ul li input[type="button"], 
+.form-style ul li input[type="submit"] {
+    left: 16%;
+}
+
+.footer__lower__container {
+	margin-left: 20%;
+}
+	
 }

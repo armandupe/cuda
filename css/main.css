@@ -1,6 +1,7 @@
-/* * {
+ /* * {
 	outline: 2px solid black;
-} */
+}  */
+
 body {
 	font-family: "Titillium Web", Arial, Helvetica, sans-serif;
 }
@@ -532,9 +533,7 @@ header button:hover {
 footer {
 	background: #3C5499;
 	height: auto;
-	
 }
-
 
 .footer__upper h2 {
 	text-align: center;
