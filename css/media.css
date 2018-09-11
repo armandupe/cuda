@@ -1,681 +1,124 @@
-/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1700px) {
 
-
-
-@media only screen and (max-width : 1088px) {
-
-.main__team__member h2 {
-	font-size: 1.3em;
-	
-}
-
-.main__team__member h3 {
-	font-size: 1.2em;
-	
+.main__skills__container figcaption {
+	margin-left: 10%;
 }
 
 }
 
+@media only screen and (max-width : 1550px) {
 
-@media only screen and (max-width : 1000px) {
-
-.main__skills__container h2 {
-	left: 20%;	
+.main__skills__container figcaption {
+	margin-left: 15%;
 }
 
-.main__skills__graphicDesign h2 {
-	left: 23%;
+.main__skills__graphicDesign figcaption {
+	min-width: 100%;
+	margin-left: 10%;
 }
-
-.main__team__member__socialsContainer {
-	width: 70%;
-	left: 15%;
-}
-
-
 
 }
 
-@media only screen and (max-width : 950px) {
+@media only screen and (max-width : 1400px) {
 
-
-h1 {
-	padding: 22% 0 0 0;
+.main__skills__container figcaption {
+	margin-left: 15%;
 }
 
-
-.main__services__container p {
-	font-size: 1em;
+.main__skills__graphicDesign figcaption {
+	margin-left: 10%;
 }
-
-.main__skills__container h2 {
-	font-size: 1em;
-}
-
-
-
-.main__team__member p {
-	font-size: 1.1em;
-	
-}
-
-.main__team__member__socialsContainer {
-	top: -20%;
-}
-
-.portfolioButton {
-	padding: 2%;
-	font-size: 1.5vw;
-	margin-left: 39%;
-}
-
-
-
-}
-
-@media only screen and (max-width : 907px) {
-
-
-
-
-
-
-
-.main__skills__container h2 {
-	font-size: .9em;
-	left: 25%;
-}
-
-.main__skills__graphicDesign h2 {
-	left: 28%;
-}
-
-.main__team__member h2 {
-	font-size: 1.1em;
-	
-}
-
-.main__team__member h3 {
-	font-size: .9em;
-	
-}
-
-
-
-}
-
-@media only screen and (max-width : 850px) {
-
-
-
-.main__skills__container h2 {
-	font-size: .8em;
-	left: 27%;
-}
-
-.main__skills__graphicDesign h2 {
-	left: 30%;
-}
-
-.main__team {
-	margin-top: -5%;
-
-}
-
-.main__team__container {
-	margin-left: 1%;
-}
-
-
-
-}
-
-@media only screen and (max-width : 800px) {
-
-
-.main__services__container {
-	max-width: 90%;
-	justify-content: center;
-	flex-direction: column;
-	
-}
-
-.main__services__branding,
-.main__services__design,
-.main__services__development,
-.main__services__rocketScience {
-	width: 60%;
-}
-
-.main__services__container h3 {
-	font-size: 2em;
-}
-
-
-.main__services__container p {
-	font-size: 1.8em;
-}
-
 
 .main__skills__container {
-	left: 20%;
-	flex-direction: column;
+	margin-left: 13%;
+}
+
+}
+
+@media only screen and (max-width : 1300px) {
+
+.main__skills__webDesign figcaption,
+.main__skills__htmlCss figcaption,
+.main__skills__UIUX figcaption {
+	margin-left: 11%;
+	min-width: 100%;
+}
+
+.main__skills__graphicDesign figcaption {
+	margin-left: 10%;
+}
+
+}
+
+@media only screen and (max-width : 1100px) {
+
+.main__skills__webDesign figcaption,
+.main__skills__htmlCss figcaption,
+.main__skills__UIUX figcaption {
+	margin-left: 15%;
+}
+
+.main__skills__graphicDesign figcaption {
+	margin-left: 15%;
+}
+
+
+}
+
+@media only screen and (max-width : 1050px) {
+
+.main__skills__container {
 	flex-wrap: wrap;
 }
 
-.main__skills__webDesign,
-.main__skills__htmlCss,
-.main__skills__graphicDesign,
-.main__skills__UIUX {
-	width: 80%;
+.main__skills__webDesign figcaption,
+.main__skills__htmlCss figcaption,
+.main__skills__UIUX figcaption {
+	margin-left: 23%;
 }
 
-.main__skills__container img {
-	margin-bottom: -10%;
+.main__skills__graphicDesign figcaption {
+	margin-left: 20%;
 }
 
-.main__skills__container h2 {
-	font-size: 2em;
-	left: -8%;
 }
 
-.main__skills__graphicDesign h2 {
-	left: -6%;
-}
+
+@media only screen and (max-width : 834px) {
 
 .main__team__container {
-	flex-direction: column;
+	width: 90%;
+	flex-wrap: wrap;
 }
 
 .main__team__member {
-	width: 50%;
-	justify-content: center;
-	left: 25%;
-	position: relative;
+	width: 48%;
 }
 
 .main__team__member h2 {
-	font-size: 2.3em;
+	font-size: 3vw;
 }
 
 .main__team__member h3 {
-	font-size: 2em;
+	font-size: 2.3vw;
 }
-
 
 .main__team__member p {
-	font-size: 1.6em;
+	font-size: 1.8vw;
 }
-
 
 .main__team__member__socialsContainer {
-	top: -5em;
+	width: 80%;
+	margin-left: 10%;
 }
 
-.main__portfolio__menu {
-	margin-left: 25%;
-	width: 50%;
-}
-
-.main__portfolio__menu button {
-	width: 23%;
-	padding: 5%;
-	
-}
-
-.main__portfolio__menu button a {
-	font-size: 2vw;
-}
-
-
-
-
-}
-
-@media only screen and (max-width : 750px) {
-
-
-
-
-
-.main__team p {
-	font-size: 1.3em;
-
-}
-
-.main__aboutUs__Pinterest p,
-.main__aboutUs__Instagram p,
-.main__aboutUs__Behance p,
-.main__aboutUs__Shazam p {
-	font-size: 1.4em;
-}
-
-.main__aboutUs__Pinterest h4,
-.main__aboutUs__Instagram h4,
-.main__aboutUs__Behance h4,
-.main__aboutUs__Shazam h4 {
-	font-size: 1.8em;
-}
-
-
-.main__aboutUs__Pinterest h5,
-.main__aboutUs__Instagram h5,
-.main__aboutUs__Behance h5,
-.main__aboutUs__Shazam h5 {
-	font-size: 1.3em;
-}
-
-
-
-}
-
-@media only screen and (max-width : 650px) {
-
-
-.main__skills__container h2 {
-	left: -3%;
-}
-
-.main__skills__graphicDesign h2 {
-	left: -1%;
-}
-
-}
-
-
-@media only screen and (max-width : 600px) {
-
-
-
-
-.main__skills__container {
-	left: 15%;
-}
-
-}
-
-@media only screen and (max-width : 550px) {
-
-
-
-
-
-.main__aboutUs h2 {
-	font-size: 1.8em;
-}
-
-.main__aboutUs__container {
-	width: 90%;
-	left: 2%;
-}
-
-}
-
-@media only screen and (max-width : 500px) {
-
-
-h1 {
-	padding: 25% 0 0 0;
-}
-
-
-
-.main__services p {
-	font-size: .8em;
-}
-
-.main__services__container h3 {
-	font-size: 1.3em;
-}
-
-.main__services__container p,
-.main__services {
-	font-size: 1.2em;
-}
-
-.main__team h2 {
-	font-size: 1.8em;
-}
-
-.main__team p {
-	font-size: 1.1em;
-}
-
-.main__team__member h3 {
-	font-size: 1.3em;
-}
-
-.main__skills__container h2 {
-	left: 3%;
-}
-
-.main__skills__graphicDesign h2 {
-	left: 4%;
-}
-
-
-.main__aboutUs h2 {
-	font-size: 1.6em;
-}
-
-.main__aboutUs__Pinterest p,
-.main__aboutUs__Instagram p,
-.main__aboutUs__Behance p,
-.main__aboutUs__Shazam p {
-	font-size: 1.2em;
-	padding-bottom: 6%;
-}
-
-.main__aboutUs__Pinterest h4,
-.main__aboutUs__Instagram h4,
-.main__aboutUs__Behance h4,
-.main__aboutUs__Shazam h4 {
-	font-size: 1.5em;
-}
-
-
-.main__aboutUs__Pinterest h5,
-.main__aboutUs__Instagram h5,
-.main__aboutUs__Behance h5,
-.main__aboutUs__Shazam h5 {
-	font-size: 1.3em;
-}
-
-
-
-.form-style {
-    margin-top: -60px;
-}
-
-.form-style ul li input[type="button"], 
-.form-style ul li input[type="submit"] {
-      left: 25%;
- }
-
-}
-
-@media only screen and (max-width : 450px) {
-
-
-
-.main__services p {
-	font-size: 1em;
-	padding-left: 2%;
-	padding-right: 2%;
-}
-
-.main__services__container p {
-	font-size: 1.3em;
-}
-
-.main__services__container p {
-	font-size: 1.2em;
-}
-
-.main__team h2 {
-	padding-top: 10%;
-	font-size: 1.4em;
-}
-
-.main__team p {
-	font-size: 1.4em;
-}
-
-.main__skills h2 {
-	font-size: 1.8em;
-}
-
-.main__skills__container  {
-	left: 12%;
-}
-
-.main__aboutUs h2 {
-	font-size: 1.3em;
-}
-
-
-
-}
-
-@media only screen and (max-width : 400px) {
-
-
-
-h1 {
-	padding: 35% 0 0 0;
-}
-
-
-
-.main__team h2 {
-	font-size: 1.2em;
-}
-
-.main__skills p {
-	font-size: 1.2em;
-}
-
-.main__skills__container h2 {
-	left: 7%;
-}
-
-.main__skills__graphicDesign h2 {
-	left: 9%;
-}
-
-.main__portfolio h2 {
-	font-size: 2em;
-}
-
-.main__portfolio p {
-	font-size: 1.2em;
-	padding: 0 0 20px 0;
-}
-
-.main__portfolio__menu button {
-	width: 20%;
-	height: 30px;
-	padding: 0;
-	
-}
-
-.main__aboutUs h2 {
-	font-size: 1.1em;
-}
-
-
-.main__aboutUs p {
-	font-size: 1em;
-}
-
-.main__aboutUs__Pinterest p,
-.main__aboutUs__Instagram p,
-.main__aboutUs__Behance p,
-.main__aboutUs__Shazam p {
-	padding-bottom: 10%;
-}
-
-.main__aboutUs__Pinterest h4,
-.main__aboutUs__Instagram h4,
-.main__aboutUs__Behance h4,
-.main__aboutUs__Shazam h4 {
-	font-size: 1.3em;
-	margin-left: 17%;
-}
-
-
-.main__aboutUs__Pinterest h5,
-.main__aboutUs__Instagram h5,
-.main__aboutUs__Behance h5,
-.main__aboutUs__Shazam h5 {
-	font-size: 1.1em;
-	margin-left: 17%;
-}
-
-.footer__upper p {
-	font-size: 1.1em;
-}
-
-.form-style ul li input[type="button"], 
-.form-style ul li input[type="submit"] {
-      left: 21%;
- }
-
-}
-
-@media only screen and (max-width : 360px) {
-
-
-
-
-
-.main__team h2 {
-	font-size: 1.1em;
-}
-
-.main__team p {
-	font-size: 1.1em;
-	padding-left: 2%;
-	padding-right: 2%;
-}
-
-.main__team__container {
-	left: -25%;
-	position: relative;
-}
-
-.main__team__member {
-	width: 100%;
-}
-
-
-.main__team__member h2 {
-	font-size: 1.8em;
-}
-
-.main__team__member h3 {
-	font-size: 1.5em;
-}
-
-.main__team__member p {
-	font-size: 1.4em;
+.main__team__member__socialsContainer1 {
+	width: 63%;
+	margin-left: 18%;
 }
 
 .main__skills__container {
-	left: 7%;
+	margin-left: 10%;
 }
-
-.main__skills__container h2 {
-	left: 9%;
-}
-
-.main__skills__graphicDesign h2 {
-	left: 12%;
-}
-
-.main__portfolio h2 {
-	font-size: 1.8em;
-}
-
-.main__portfolio__menu button {
-	height: 20px;
-}
-
-.main__aboutUs h2 {
-	font-size: 1em;
-}
-
-
-.main__aboutUs p {
-	margin-bottom: -5%;
-}
-
-.main__aboutUs__Pinterest p,
-.main__aboutUs__Instagram p,
-.main__aboutUs__Behance p,
-.main__aboutUs__Shazam p {
-	padding-bottom: 18%;
-}
-
-.footer__upper h2 {
-	font-size: 1.5em;
-}
-
-.footer__upper p {
-	font-size: .8em;
-	padding-left: 2%;
-	padding-right: 2%;
-}
-
-.form-style ul li input[type="button"], 
-.form-style ul li input[type="submit"] {
-      left: 18%;
- }
-
-}
-
-@media only screen and (max-width : 320px) {
-
-
-
-.main__skills h2 {
-	font-size: 1.3em;
-}
-
-.main__skills__container {
-	left: 4%;
-}
-
-.main__skills__container h2 {
-	left: 11%;
-}
-
-.main__skills__graphicDesign h2 {
-	left: 14%;
-}
-
-.main__portfolio h2 {
-	font-size: 1.3em;
-}
-
-.main__portfolio p {
-	font-size: 1em;
-}
-
-.main__portfolio__container figcaption {
-	font-size: 1em;
-}
-
-.main__aboutUs h2 {
-	font-size: .8em;
-}
-
-.main__aboutUs__Pinterest p,
-.main__aboutUs__Instagram p,
-.main__aboutUs__Behance p,
-.main__aboutUs__Shazam p {
-	font-size: .8em;
-	padding-bottom: 20%;
-}
-
-.main__aboutUs__Pinterest h4,
-.main__aboutUs__Instagram h4,
-.main__aboutUs__Behance h4,
-.main__aboutUs__Shazam h4 {
-	font-size: 1.1em;
-}
-
-
-.main__aboutUs__Pinterest h5,
-.main__aboutUs__Instagram h5,
-.main__aboutUs__Behance h5,
-.main__aboutUs__Shazam h5 {
-	font-size: 1em;
-}
-
-.form-style ul li input[type="button"], 
-.form-style ul li input[type="submit"] {
-      left: 12%;
- }
 
 }
