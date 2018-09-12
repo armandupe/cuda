@@ -16,13 +16,15 @@ header {
 
 }
 
+
 .header__nav {
 	width: 100%;
 	height: auto;
 	position: fixed;
 	z-index: 54;
 	background: #87509C;
-	box-shadow: 2px 2px 20px 2px #000;
+	-webkit-box-shadow: 2px 2px 20px 2px #000;
+	        box-shadow: 2px 2px 20px 2px #000;
 }
 
 .header__logo {
@@ -62,12 +64,12 @@ nav a {
 	width: 90%;
 	height: auto;
 	border-radius: 5px;
-	padding: 10% 10% 10% 0%;
+	padding: 10% 10% 10% 0;
 }
 
 .header__logo_contact {
 	width: 80%;
-	padding: 10% 20% 10% 0%;
+	padding: 10% 20% 10% 0;
 }
 
 
@@ -104,7 +106,6 @@ header button {
 	padding: 1% 1.5%;
 	margin: 3% 10% 5% 40%;
 	-webkit-box-shadow: 0px 9px 0px 0px rgba(199,106,67,1);
-	-moz-box-shadow: 0px 9px 0px 0px rgba(199,106,67,1);
 	box-shadow: 0px 5px 0px 0px rgba(199,106,67,1);
 }
 
@@ -144,8 +145,11 @@ header button:hover {
 
 .main__services__container {
 	max-width: 80%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 	position: relative;
 	left: 10%;
 }
@@ -208,9 +212,14 @@ header button:hover {
 }
 
 .main__team__container {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	width: 90%;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin-left: 5%;
 }
@@ -246,16 +255,23 @@ header button:hover {
 }
 
 .main__team__member__socialsContainer {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 	width: 100%;
 	margin-top: -5%;
 	padding-bottom: 5%;
 }
 
 .main__team__member__socialsContainer1 {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	width: 77%;
 	margin-top: -5%;
 	margin-left: 12%;
@@ -308,10 +324,14 @@ header button:hover {
 
 
 .main__skills__container {
-	width: 70%;
-	margin-left: 17%;
+	max-width: 70%;
+	left: 15%;
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 }
 
 
@@ -320,24 +340,27 @@ header button:hover {
 .main__skills__htmlCss,
 .main__skills__UIUX,
 .main__skills__graphicDesign {
-	min-width: 25%;
-	
+	width: 25%;
 }
 
 .main__skills__container img {
-	max-width: 100%;
+	max-width: 70%;
 	height: auto;
-	margin-left: 23%;
+	margin-left: 16%;
 
 }
 
 .main__skills__graphicDesign img {
-	margin-left: 20%;
+	margin-left: 16%;
 }
 
 .main__skills__container figcaption {
-	font-size: 1.8vw;
+	font-size: 1.4vw;
 	text-align: center;
+}
+
+.main__skills__UIUX figcaption {
+	margin-top: -4%;
 }
 
 .main__portfolio {
@@ -376,6 +399,8 @@ header button:hover {
 	margin-top: -3%;
 	width: 30%;
 	height: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -387,6 +412,8 @@ header button:hover {
 	border: none;
 	background: #EBC985;
 	margin-left: 5px;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
 	transition: .5s;
 	font-size: 1.2vw;
 }
@@ -398,9 +425,14 @@ header button:hover {
 
 .main__portfolio__container {
 	width: 90%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	position: relative;
 	left: 5%;
 }
@@ -413,13 +445,17 @@ header button:hover {
 }
 
 .main__portfolio__container figure img {
+	-webkit-transition: 1s;
+	-o-transition: 1s;
 	transition: 1s;
 	max-width: 100%;
 	height: auto;
 }
 
 .main__portfolio__container figure img:hover {
-	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
 	cursor: pointer;
 }
 
@@ -435,7 +471,6 @@ header button:hover {
 	border-radius: 3%;
 	background: #17C2A4;
 	-webkit-box-shadow: 0px 9px 0px 0px rgba(20,165,140,1);
-	-moz-box-shadow: 0px 9px 0px 0px rgba(20,165,140,1);
 	box-shadow: 0px 5px 0px 0px rgba(20,165,140,1);
 }
 
@@ -478,9 +513,13 @@ header button:hover {
 .main__aboutUs__container {
 	width: 90%;
 	height: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 	position: relative;
 	left: 5%;
 	padding-bottom: 5%;
@@ -594,7 +633,8 @@ footer {
 }
 
 .form-style ul li  .field-style:focus {
-    box-shadow: 0 0 5px #B0CFE0;
+    -webkit-box-shadow: 0 0 5px #B0CFE0;
+            box-shadow: 0 0 5px #B0CFE0;
     border: 1px solid #B0CFE0;
 }
 
@@ -629,7 +669,6 @@ footer {
 
 .form-style ul li input[type="button"], 
 .form-style ul li input[type="submit"] {
-    -moz-box-shadow: 0px 5px 0px 0px #299EC5;
     -webkit-box-shadow: 0px 5px 0px 0px #299EC5;
     box-shadow: 0px 5px 0px 0px #299EC5;
     background-color: #30BAE7;
@@ -648,6 +687,9 @@ footer {
 
 .form-style ul li input[type="button"]:hover, 
 .form-style ul li input[type="submit"]:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #2D77A2), to(#337DA8));
+    background: -webkit-linear-gradient(top, #2D77A2 5%, #337DA8 100%);
+    background: -o-linear-gradient(top, #2D77A2 5%, #337DA8 100%);
     background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
     background-color: #28739E;
 }
@@ -714,4 +756,3 @@ textarea:-ms-input-placeholder {
 	height: auto;
 	margin-left: 25%;
 }
-
