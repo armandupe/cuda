@@ -1,2 +1,2 @@
-# cuda
-Cuda Single Page Portfolio Template
+# https://armandupe.github.io/cuda/
+![preview](preview.jpg)
