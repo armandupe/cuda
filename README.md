@@ -1,2 +1,2 @@
-# https://armandupe.github.io/cuda/
+# [Cuda](https://armandupe.github.io/cuda)
 ![preview](preview.jpg)
