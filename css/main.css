@@ -257,8 +257,8 @@ header button:active {
 }
 
 .main__team__member > img:hover {
-	-webkit-box-shadow: 1px 1px 10px 10px;
-	        box-shadow: 1px 1px 10px 10px;
+	-webkit-box-shadow: 1px 1px 10px 7px;
+	        box-shadow: 1px 1px 10px 7px #FFB73B;
 	border-radius: 100%;
 	cursor: pointer;
 	-webkit-transform: scale(1.1);
