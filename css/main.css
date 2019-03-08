@@ -1,6 +1,3 @@
- /* * {
-	outline: 2px solid black;
-}  */
 
 body {
 	font-family: "Titillium Web", Arial, Helvetica, sans-serif;
@@ -13,7 +10,6 @@ header {
 	background: #87509C;
 	color: #fff;
 	margin-top: -2.1%;
-
 }
 
 
@@ -91,6 +87,10 @@ nav ul div:hover {
 	background: #643A79;
 }
 
+nav ul div:active {
+	background: #9F5FB8;
+}
+
 h1 {
 	text-align: center;
 	padding: 15% 0 0 0;
@@ -114,6 +114,10 @@ header button:hover {
 	cursor: pointer;
 }
 
+header button:active {
+	background: rgb(197, 109, 68);
+}
+
 .main__services {
 	height: auto;
 	background: #17C2A4;
@@ -131,7 +135,7 @@ header button:hover {
 
 .main__services p {
 	padding-bottom: 5%;
-	font-size: 1.6vw;
+	font-size: 1.6em;
 }
 
 .underline__services {
@@ -154,6 +158,20 @@ header button:hover {
 	left: 10%;
 }
 
+.main__services__container img {
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+
+.main__services__container img:hover {
+	-webkit-transform: rotateY(180deg);
+	        transform: rotateY(180deg);
+	cursor: pointer;
+	-webkit-box-shadow: 1px 1px 30px 15px inset gainsboro;
+	        box-shadow: 1px 1px 30px 15px inset gainsboro;
+	border-radius: 10px;
+}
 
 .main__services__branding,
 .main__services__design,
@@ -233,7 +251,21 @@ header button:hover {
 	width: 40%;
 	height: auto;
 	margin-left: 30%;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
 }
+
+.main__team__member > img:hover {
+	-webkit-box-shadow: 1px 1px 10px 10px;
+	        box-shadow: 1px 1px 10px 10px;
+	border-radius: 100%;
+	cursor: pointer;
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
 
 .main__team__member h2 {
 	color: #000;
@@ -421,6 +453,10 @@ header button:hover {
 .main__portfolio__menu button:hover {
 	background: #fff;
 	cursor: pointer;
+}
+
+.main__portfolio__menu button:active {
+	background: rgb(207, 161, 67);
 }
 
 .main__portfolio__container {
@@ -751,8 +787,12 @@ textarea:-ms-input-placeholder {
 	color: #30BAE7;
 }
 
+.footer__lower a:active {
+	color: #305AE7;
+}
+
 .footer__lower__container {
 	min-width: 70%;
 	height: auto;
-	margin-left: 25%;
+	margin-left: 22%;
 }
